@@ -12,7 +12,7 @@ class Config:
     FSUB = getenv("FSUB", "Primemoviebd")
     CHID = int(getenv("CHID", "-1002043502363"))
     SUDO = list(map(int, getenv("SUDO", "5926160191").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://sahidhasannayembd_prime:flHv6kiSejlHiNt6@cluster0.zutvbfd.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
 
